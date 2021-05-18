@@ -1,0 +1,4 @@
+[all]
+<ipaddress> new_hostname=<fqdn_of_server>
+<ipaddress> new_hostname=<fqdn_of_server>
+<ipaddress> new_hostname=<fqdn_of_server>
