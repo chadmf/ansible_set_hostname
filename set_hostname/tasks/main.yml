@@ -2,4 +2,4 @@
 #set hostname
 - name: "update hostnames from ansible inventory"
   shell: "hostnamectl set-hostname {{ new_hostname }}"
-  notify: "Restart Network"
+  notify: "Restart Agent"

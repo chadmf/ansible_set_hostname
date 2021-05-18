@@ -1,11 +1,4 @@
 ---
-- name: "Restart Network"
-  service:
-    name: network-online.target
-    state: restarted
-  listen: "Restart Network"
-  notify: "Restart Agent"
-
 - name: "Restart Agent"
   service:
     name: agent
